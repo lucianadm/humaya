@@ -1,0 +1,51 @@
+body{
+    background:url("IMAGENES/Central/imagenCentral.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    float: right;
+    width: 80%; /* ajusta el ancho a tu gusto */  
+    margin-top: 5rem;
+
+}
+
+.texto{
+    color: white;
+    text-align: justify;
+    float: right;
+    width: 80%; /* ajusta el ancho a tu gusto */  
+    padding:2rem;
+}
+.elboton{
+ 
+    text-align: center;
+ 
+}
+button {
+    border-radius: 25px;
+    background-color: black;
+    opacity: 0.5;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  .contenedor-columnas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .columna-izquierda, .columna-derecha {
+    width: 50%;
+    padding: 20px;
+
+  }
+  
+
+
